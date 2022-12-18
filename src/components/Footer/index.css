@@ -1,0 +1,40 @@
+.footer{
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--color-white);
+    margin-left: 8rem;
+    margin-top: 2.7rem;
+}
+
+.social-icons{
+    font-size: 1.5rem;
+    gap: 3rem;
+    display: flex;
+}
+
+.copyright{
+    font-weight: 700;
+    justify-content: center;
+    margin-left: 5.3rem;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    .footer{
+        margin-left: 4rem;
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        position: absolute;
+        display: table-row;
+        height: 0;
+        bottom: 0;
+        position: fixed;
+        margin-left: 4rem;
+        margin-top: 18rem;
+    }
+}

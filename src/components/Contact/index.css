@@ -1,0 +1,139 @@
+.contact{
+    display: flex;
+    gap: 4rem;
+    padding: 8rem;
+    padding-bottom: 2rem;
+    margin-left: 8rem;
+    margin-top: -3rem;
+    position: relative;
+    color: var(--color-white);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    gap: 2rem;
+}
+
+input, textarea{
+    resize: none;
+    width: 337px;
+    height: 2rem;
+    border: 2px solid var(--color-white);
+    background-color: transparent;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--color-white);
+}
+
+button{
+    width: 372px;
+    border-radius: 0.5rem;
+    height: 4rem;
+    padding: 0.5rem;
+    background-color: var(--color-btn);
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    color: var(--color-white);
+}
+
+.social{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 5rem;
+    font-weight: 750;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.kgx-logo{
+    width: 4rem;
+}
+
+@media screen and (max-width:1024px) {
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding-bottom: 1rem;
+        margin-left: 8rem;
+        justify-content: center;
+        margin-top: -9rem;
+        position: relative;
+        color: var(--color-white);
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .social{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--color-white);
+        margin-top: 5rem;
+        font-weight: 750;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: -12rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .contact{
+        width: 350px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        justify-content: center;
+        margin-left: 1.5rem;
+        margin-top: -3rem;
+        height: initial;
+        /* margin-top: -11rem; */
+        /* position: relative; */
+        color: var(--color-white);
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        align-items: center;
+        margin-left: 8rem;
+        gap: 1rem;
+    }
+
+    .social{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--color-white);
+        margin-top: 5rem;
+        font-weight: 750;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: -0.5rem;
+        width: 350px;
+    }
+
+    .kgx-logo{
+        margin-left: 1rem;
+    }
+}

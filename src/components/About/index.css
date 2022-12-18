@@ -1,0 +1,59 @@
+.about{
+    margin-top: 3rem;
+}
+
+.kaaylogo{
+    width: 8rem;
+    margin-left: 38rem;
+}
+
+.about-writing{
+    color: var(--color-white);
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    text-shadow: 2px, 2px, 8px, red;
+}
+
+.about-paragraph{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: -0.5rem;
+    text-shadow: 2px, 2px, 8px, red;
+}
+
+@media screen and (max-width:1024px) {
+    .about{
+        margin-top: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kaaylogo{
+        width: 5rem;
+        margin-left: 22.5rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .about{
+        margin: 0;
+        padding: 0;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+        height: initial;
+    }
+
+    .kaaylogo{
+        width: 5rem;
+        margin-left: 10rem;
+    }
+
+    .about-paragraph{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}

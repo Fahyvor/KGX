@@ -1,0 +1,168 @@
+.header{
+    width: 1300px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: -0.5rem;
+    margin-left: 2rem;
+}
+
+.logo-kgx{
+    padding-left: 2rem;
+    width: 60px;
+    position: absolute;
+}
+
+.headnav{
+    display: flex;
+    gap: 50px;
+    margin-left: 20rem;
+}
+
+.headnav,h4{
+    color: var(--color-white);
+}
+
+.headbutton{
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 9rem;
+}
+
+.sign,a{
+    color: var(--color-white);
+}
+
+.signup{
+    border-radius: 5rem;
+    border: 2px solid var(--color-white);
+    padding: 0.8rem;
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+a:link{
+    color: var(--color-white);
+    text-decoration-color: var(--color-white);
+    text-decoration-line: none;
+}
+
+.signup:hover{
+    background-color: burlywood;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+/* ======================= MEDIUM DEVICES ================ */
+
+    @media screen and (max-width:1024px) {
+        .header{
+            width: 750px;
+            max-width: 100%;
+            display: flex;
+            margin-top: -0.5rem;
+            margin-left: -0.5rem;
+            gap: 1rem;
+        }
+
+        .headnav{
+            display: none;
+        }
+
+        .mobile-nav{
+            display: flex;
+            color: white;
+            /* margin-left: -5rem; */
+        }
+
+        .signup{
+            border-radius: 5rem;
+            border: 2px solid var(--color-white);
+            padding: 0.8rem;
+            width: 4rem;
+            height: 4rem;
+            margin-top: 1rem;
+            margin-left: 3.8rem;
+        }
+
+        .mobile-headnav{
+            position: absolute;
+            background-color: blueviolet;
+            color: var(--color-bg);
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+            margin-top: 1.5rem;
+            margin-left: -4rem;
+            height: 15rem;
+            padding: 1rem;
+            padding-top: -1rem;
+            border-radius: 1rem;
+        }
+    }
+
+    /* =================== SMALL DEVICES ========================= */
+
+    @media screen and (max-width:768px) {
+        .header{
+            margin: 0;
+            padding: 0;
+            width: 750px;
+            max-width: 100%;
+            display: flex;
+            margin-top: -0.5rem;
+            margin-left: -0.5rem;
+            gap: 1rem;
+            height: 3.5rem;
+            align-items: center;
+        }
+
+        .headnav{
+            display: none;
+        }
+
+        .mobile-nav{
+            display: flex;
+            color: white;
+            /* margin-left: -5rem; */
+        }
+
+        .signup{
+            border-radius: 5rem;
+            border: 2px solid var(--color-white);
+            width: 2rem;
+            height: 2rem;
+            margin-top: -1.2rem;
+            margin-left: 3.8rem;
+            font-size: 0.7rem;
+        }
+
+        .sign{
+            height: 7rem;
+            margin-top: 7.5rem;
+            padding: 0.6rem;
+        }
+
+        .headbutton{
+            margin-top: -0.5rem;
+        }
+
+        .mobile-headnav{
+            position: absolute;
+            background-color: blueviolet;
+            color: var(--color-bg);
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+            margin-top: 1.5rem;
+            margin-left: -4rem;
+            height: 12rem;
+            padding: 1rem;
+            padding-top: -1rem;
+            border-radius: 1rem;
+        }
+    }
