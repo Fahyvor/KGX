@@ -111,8 +111,7 @@ a:link{
         .header{
             margin: 0;
             padding: 0;
-            width: 750px;
-            max-width: 100%;
+            width: 100%;
             display: flex;
             margin-top: -0.5rem;
             margin-left: -0.5rem;
@@ -134,17 +133,15 @@ a:link{
         .signup{
             border-radius: 5rem;
             border: 2px solid var(--color-white);
-            width: 2rem;
-            height: 2rem;
-            margin-top: -1.2rem;
-            margin-left: 3.8rem;
+            /* width: 2rem;
+            height: 2rem; */
+            /* margin-left: 1%; */
             font-size: 0.7rem;
         }
 
         .sign{
-            height: 7rem;
-            margin-top: 7.5rem;
-            padding: 0.6rem;
+            margin-top: 20%;
+            padding: 0.1rem;
         }
 
         .headbutton{

@@ -94,7 +94,7 @@ button{
 
 @media screen and (max-width:768px) {
     .contact{
-        width: 350px;
+        width: 100%;
         margin: 0;
         padding: 0;
         display: flex;
@@ -112,7 +112,7 @@ button{
     form{
         display: flex;
         flex-direction: column;
-        width: 70px;
+        width: 95%;
         align-items: center;
         margin-left: 8rem;
         gap: 1rem;
@@ -130,7 +130,7 @@ button{
         display: flex;
         flex-direction: column-reverse;
         margin-left: -0.5rem;
-        width: 350px;
+        width: 100%;
     }
 
     .kgx-logo{
