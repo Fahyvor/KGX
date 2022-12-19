@@ -112,13 +112,14 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: 55rem;
     }
 
     .body-image{
         position: absolute;
         margin-left: 2rem;
         margin-top: 23rem;
-        width: 350px;
+        width: 80%;
     }
 
     .graphics{
@@ -128,7 +129,7 @@
 
     .body-writeup{
         /* margin-left: -2.5rem; */
-        width: 390px;
+        width: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -144,7 +145,7 @@
 
     .button-body{
         display: flex;
-        width: 300px;
+        width: 100%;
         margin-left: 2.5rem;
         gap: 2rem;
         margin-top: -0.8rem;
