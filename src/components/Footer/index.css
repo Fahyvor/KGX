@@ -30,11 +30,10 @@
 @media screen and (max-width:768px) {
     .footer{
         position: absolute;
+        visibility: visible;
         display: table-row;
-        height: 0;
-        bottom: 0;
-        position: fixed;
-        margin-left: 4rem;
-        margin-top: 18rem;
+        height: 40%;
+        margin-left: 15%;
+        margin-top: 50%;
     }
 }

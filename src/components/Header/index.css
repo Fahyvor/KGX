@@ -131,21 +131,31 @@ a:link{
         }
 
         .signup{
-            border-radius: 5rem;
+            border-radius: 3rem;
             border: 2px solid var(--color-white);
-            /* width: 2rem;
-            height: 2rem; */
-            /* margin-left: 1%; */
-            font-size: 0.7rem;
+            width: 5rem;
+            height: 1%; 
+            margin-left: 1%;
+            font-size: 0.6rem;
         }
 
         .sign{
             margin-top: 20%;
-            padding: 0.1rem;
+            padding: 0.05%;
+            display: flex;
+            width: 90%;
+            height: 5%;
+            justify-content: center;
         }
 
         .headbutton{
             margin-top: -0.5rem;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 6rem;
+            max-width: 100%;
+            margin-left: 53%;
         }
 
         .mobile-headnav{
@@ -155,11 +165,11 @@ a:link{
             display: flex;
             flex-direction: column;
             gap: 0.1rem;
-            margin-top: 1.5rem;
-            margin-left: -4rem;
+            margin-top: 5%;
+            width: 30%;
+            margin-left: -25%;
             height: 12rem;
-            padding: 1rem;
+            padding: 2%;
             padding-top: -1rem;
-            border-radius: 1rem;
         }
     }

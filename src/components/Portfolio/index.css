@@ -45,16 +45,15 @@
 
 @media screen and (max-width:768px) {
     .portfolio{
+        width: 100%;
         margin: auto 0;
         /* padding: 0; */
         display: grid;
         flex-direction: column;
-        gap: 3rem;
         grid-template-columns: repeat(2, 1fr);
-        padding: 0.5rem;
+        padding: 2%;
         margin-top: 4rem;
-        padding-bottom: 3rem;
-        margin-left: 2rem;
+        margin-left: 6%;
         margin-bottom: 3rem;
         height: initial;
         overflow: visible;

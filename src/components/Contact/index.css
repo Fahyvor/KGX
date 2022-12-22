@@ -101,20 +101,18 @@ button{
         flex-direction: column-reverse;
         gap: 1rem;
         justify-content: center;
-        margin-left: 1.5rem;
-        margin-top: -3rem;
+        margin-top: 1%;
         height: initial;
-        /* margin-top: -11rem; */
-        /* position: relative; */
+        margin-top: -16%;
         color: var(--color-white);
     }
 
     form{
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 80%;
         align-items: center;
-        margin-left: 8rem;
+        margin-left: 9.5%;
         gap: 1rem;
     }
 
@@ -129,11 +127,11 @@ button{
         letter-spacing: 0.1rem;
         display: flex;
         flex-direction: column-reverse;
-        margin-left: -0.5rem;
+        margin-left: 2%;
         width: 100%;
     }
 
     .kgx-logo{
-        margin-left: 1rem;
+        margin-left: 0.5%;
     }
 }
