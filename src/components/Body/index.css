@@ -119,7 +119,7 @@
         align-items: center;
         position: absolute;
         margin-left: 18%;
-        margin-top: 87%;
+        margin-top: 95%;
         width: 60%;
         height: 20%;
     }
@@ -149,7 +149,7 @@
         display: flex;
         width: 100%;
         margin-left: 15%;
-        gap: 4%;
-        margin-top: -3%;
+        gap: 8%;
+        margin-top: 3%;
     }
 }
