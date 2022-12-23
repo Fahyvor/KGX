@@ -33,6 +33,7 @@
         visibility: visible;
         display: table-row;
         height: 40%;
+        gap: 2%;
         margin-left: 15%;
         margin-top: 50%;
     }
