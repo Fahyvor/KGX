@@ -115,7 +115,7 @@ a:link{
             display: flex;
             margin-top: -0.5rem;
             margin-left: -0.5rem;
-            gap: 1rem;
+            gap: 10%;
             height: 3.5rem;
             align-items: center;
         }

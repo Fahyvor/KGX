@@ -38,7 +38,7 @@ html {
 /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ====================== */
 @media screen and (max-width: 1024px) {
     :root{
-        width: 100%;
+        width: 750%;
     }
 }
 
