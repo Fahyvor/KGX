@@ -52,5 +52,6 @@ html {
 
     .html,body{
         scroll-behavior: smooth;
+        width: device-width;
     }
 }
