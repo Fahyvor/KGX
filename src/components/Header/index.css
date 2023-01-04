@@ -164,6 +164,7 @@ a:link{
             flex-direction: column;
             gap: 0.1rem;
             width: 85%;
+            margin: 5%;
             margin-top: 1.5rem;
             padding: 1rem;
             padding-top: -1rem;

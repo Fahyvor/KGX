@@ -146,11 +146,11 @@
 
     .button-body{
         display: flex;
-        width: 85%;
+        width: 75%;
         align-items: center;
         justify-content: center;
         margin: 8px 2px;
-        gap: 15%;
+        gap: 25%;
         margin-top: -5%;
     }
 
