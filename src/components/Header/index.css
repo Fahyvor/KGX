@@ -162,7 +162,7 @@ a:link{
             position: absolute;
             background-color: blueviolet;
             color: var(--color-bg);
-            display: none;
+            display: inline-block;
             flex-direction: column;
             gap: 0.1rem;
             width: 90%;
