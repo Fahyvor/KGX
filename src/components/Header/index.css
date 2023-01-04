@@ -159,7 +159,6 @@ a:link{
         }
 
         .mobile-headnav{
-            position: absolute;
             background-color: blueviolet;
             color: var(--color-bg);
             display: flex;
@@ -168,7 +167,7 @@ a:link{
             width: 85%;
             margin: 5%;
             /* margin-top: 1.5rem; */
-            padding-left: 20%;
+            padding-left: 1%;
             padding: 1rem;
             padding-top: -1rem;
         }
