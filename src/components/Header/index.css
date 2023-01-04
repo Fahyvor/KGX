@@ -159,6 +159,7 @@ a:link{
         }
 
         .mobile-headnav{
+            position: absolute;
             background-color: blueviolet;
             color: var(--color-bg);
             display: flex;
