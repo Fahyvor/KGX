@@ -1,6 +1,6 @@
 import React from 'react' 
 import {useRef} from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 import './index.css'
 import Logo from '../../assets/Logo.png'
 
@@ -8,9 +8,9 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-        e.preventDEfault();
+        e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'template_0hdw9b9', form.current, 'YOUR_USER_ID')
+        emailjs.sendForm('fahyvor', 'emplate_6djgdrq', form.current, 'Amff1N1IhpL2XK1Q6')
 
         e.target.reset();
 
