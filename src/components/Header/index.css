@@ -164,10 +164,9 @@ a:link{
             display: flex;
             flex-direction: column;
             gap: 0.1rem;
-            width: 85%;
-            margin: 5%;
+            width: 90%;
             /* margin-top: 1.5rem; */
-            padding-left: -10%;
+            padding-left: -90%;
             padding: 1rem;
             padding-top: -1rem;
         }
