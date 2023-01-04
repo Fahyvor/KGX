@@ -15,7 +15,7 @@ const Footer = () => {
         <a href='https://instagram.com/fahyvor' target='_blank'><AiFillInstagram /></a>
       </div>
       <div className='copyright'>
-        <small>&copy; KGX {new Date().getFullYear()} </small>
+        <small>&copy; KGX 2020 - {new Date().getFullYear()} </small>
       </div>
     </div>
   )

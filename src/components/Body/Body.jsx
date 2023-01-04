@@ -22,7 +22,8 @@ const Body = () => {
             <h3 className='readmore'>
                 <a href='/about'>Read More</a>
             </h3>
-            <h3 className='contact-us'><a href='/contact'>Contact Us</a>
+            <h3 className='contact-us'>
+              <a href='/contact'>Contact Us</a>
             </h3>
         </div>
     </div>

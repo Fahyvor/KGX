@@ -96,12 +96,11 @@ a:link{
             display: flex;
             flex-direction: column;
             gap: 0.1rem;
+            width: 90%;
+            margin-left: -83%;
             margin-top: 1.5rem;
-            margin-left: -4rem;
-            height: 15rem;
             padding: 1rem;
             padding-top: -1rem;
-            border-radius: 1rem;
         }
     }
 
@@ -165,11 +164,10 @@ a:link{
             display: flex;
             flex-direction: column;
             gap: 0.1rem;
-            margin-top: 5%;
-            width: 30%;
-            margin-left: -25%;
-            height: 12rem;
-            padding: 2%;
+            width: 90%;
+            margin-left: -83%;
+            margin-top: 1.5rem;
+            padding: 1rem;
             padding-top: -1rem;
         }
     }
