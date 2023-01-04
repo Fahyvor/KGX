@@ -146,11 +146,25 @@
 
     .button-body{
         display: flex;
-        width: 100%;
+        width: 85%;
         align-items: center;
         justify-content: center;
         margin: 8px 2px;
-        gap: 20px;
+        gap: 15%;
         margin-top: -5%;
+    }
+
+    .readmore{
+        background-color: orangered;
+        border-radius: 8rem;
+        padding: 1rem;
+        margin: 8px 2px;
+    }
+
+    .contact-us{
+        border: 2px solid var(--color-white);
+        padding: 1rem;
+        border-radius: 8rem;
+        margin: 8px 2px;
     }
 }

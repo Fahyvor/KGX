@@ -158,14 +158,12 @@ a:link{
         }
 
         .mobile-headnav{
-            position: absolute;
             background-color: blueviolet;
             color: var(--color-bg);
             display: flex;
             flex-direction: column;
             gap: 0.1rem;
             width: 90%;
-            margin-left: -83%;
             margin-top: 1.5rem;
             padding: 1rem;
             padding-top: -1rem;
