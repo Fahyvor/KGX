@@ -115,6 +115,7 @@
         height: 100%;
         margin: 1%;
         padding: 1%;
+        justify-content: center;
     }
 
     .body-image{
