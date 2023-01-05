@@ -124,7 +124,7 @@ a:link{
         }
 
         .mobile-nav{
-            display: inline-block;
+            /* display: inline-block; */
             position: relative;
             color: white;
             /* margin-left: -5rem; */
