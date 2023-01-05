@@ -124,9 +124,10 @@ a:link{
         }
 
         .mobile-nav{
-            /* display: inline-block; */
+            display: flex;
             position: relative;
             color: white;
+            width: 90%;
             /* margin-left: -5rem; */
         }
 
