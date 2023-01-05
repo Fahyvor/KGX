@@ -159,13 +159,13 @@ a:link{
         }
 
         .mobile-headnav{
-            position: relative;
+            position: absolute;
             background-color: blueviolet;
             color: var(--color-bg);
             display: flex;
             flex-direction: column;
             gap: 0.1rem;
-            margin-left: -40%;
+            margin-right: 4%;
             width: 90%;
             padding: 12px 16px;
             z-index: 1;
