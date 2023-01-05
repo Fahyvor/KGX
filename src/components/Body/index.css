@@ -148,10 +148,11 @@
         display: flex;
         width: 80%;
         align-items: center;
-        justify-content: space-evenly;
+        position: center;
+        justify-content: space-between;
         margin: 8px 2px;
         gap: 15%;
-        padding: 1%;
+        margin-top: -5%;
     }
 
     .readmore{
