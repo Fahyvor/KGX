@@ -24,6 +24,7 @@ import Portfolio22 from '../../assets/Portfolio22.png'
 import Portfolio23 from '../../assets/Portfolio23.JPG'
 import Portfolio24 from '../../assets/Portfolio24.jpg'
 import Portfolio25 from '../../assets/Portfolio25.jpg'
+import Portfolio26 from '../../assets/Portfolio26.jpg'
 import Logo from '../../assets/Logo.png'
 import './index.css'
 
@@ -59,6 +60,7 @@ const Portfolio = () => {
         <img src={Portfolio23} className='twentythree'/>
         <img src={Portfolio24} className='twentyfour'/>
         <img src={Portfolio25} className='twentyfive'/>
+        <img src={Portfolio26} className='twentysix'/>
     </div>
     </>
   )
